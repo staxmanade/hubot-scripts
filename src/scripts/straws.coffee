@@ -41,5 +41,5 @@ module.exports = (robot) ->
       rtnMsg = p.join('\n')
       msg.send('\n' + rtnMsg)
     else
-      msg.send('nobody participated in this last hand. :(');
+      msg.send('Nobody participated in this last hand. :(');
       
